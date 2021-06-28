@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from suii_msgs/srv/ManipulationAction.srv
+// generated code does not contain a copyright notice
+
+
+module suii_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Manipulation pick and place action service file: /pick /place")
+    struct ManipulationAction_Request {
+      string link;
+    };
+    struct ManipulationAction_Response {
+      uint8 status;
+    };
+  };
+};

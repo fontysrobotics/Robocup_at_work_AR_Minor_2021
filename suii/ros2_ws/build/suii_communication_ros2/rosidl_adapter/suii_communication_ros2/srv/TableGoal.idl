@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from suii_communication_ros2/srv/TableGoal.srv
+// generated code does not contain a copyright notice
+
+
+module suii_communication_ros2 {
+  module srv {
+    struct TableGoal_Request {
+      string table;
+    };
+    struct TableGoal_Response {
+      boolean succes;
+    };
+  };
+};

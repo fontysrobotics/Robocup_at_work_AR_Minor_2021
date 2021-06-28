@@ -1,0 +1,3 @@
+[console_scripts]
+service = nav_test_package_ros2.nav_test_package_ros2:main
+

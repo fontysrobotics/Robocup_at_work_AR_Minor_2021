@@ -1,0 +1,3 @@
+source;share/suii_navigation/hook/pythonpath.ps1
+source;share/suii_navigation/hook/pythonpath.dsv
+source;share/suii_navigation/hook/pythonpath.sh

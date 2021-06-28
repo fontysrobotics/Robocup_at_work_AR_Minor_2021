@@ -1,0 +1,2 @@
+Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs': /usr/bin/cmake /home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs
+Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs' returned '1': /usr/bin/cmake /home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs

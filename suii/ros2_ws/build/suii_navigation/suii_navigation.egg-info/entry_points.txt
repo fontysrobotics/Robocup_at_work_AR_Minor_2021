@@ -1,0 +1,3 @@
+[console_scripts]
+suii_navigation = suii_navigation.suii_navigation:main
+

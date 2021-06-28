@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2/libsuii_communication_ros2__rosidl_typesupport_fastrtps_c.so" "TARGETS" "suii_communication_ros2__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

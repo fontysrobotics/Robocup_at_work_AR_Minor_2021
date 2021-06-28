@@ -1,0 +1,1 @@
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_generator_c/suii_msgs/srv/detail/get_free_spot__type_support.h

@@ -1,0 +1,8 @@
+prefix=/home/robohub/suii/ros1_ws/devel
+
+Name: atwork_commander_core
+Description: Description of atwork_commander_core
+Version: 0.0.1
+Cflags: -I/home/robohub/suii/ros1_ws/src/atwork-commander/atwork_commander_core/include
+Libs: -L${prefix}/lib -latwork_commander_core_control
+Requires: atwork_commander_msgs roscpp

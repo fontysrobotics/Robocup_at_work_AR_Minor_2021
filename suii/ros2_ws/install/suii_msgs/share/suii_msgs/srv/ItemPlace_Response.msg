@@ -1,0 +1,1 @@
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_cmake/srv/ItemPlace_Response.msg

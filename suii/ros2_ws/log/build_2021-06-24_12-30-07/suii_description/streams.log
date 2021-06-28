@@ -1,0 +1,46 @@
+[0.066s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake /home/suii/colcon_ws/suii/ros2_ws/src/suii_description -DCMAKE_INSTALL_PREFIX=/home/suii/colcon_ws/suii/ros2_ws/install/suii_description
+[0.367s] -- The C compiler identification is GNU 9.3.0
+[0.368s] -- The CXX compiler identification is GNU 9.3.0
+[0.368s] -- Check for working C compiler: /usr/bin/cc
+[0.368s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.368s] -- Detecting C compiler ABI info
+[0.368s] -- Detecting C compiler ABI info - done
+[0.370s] -- Detecting C compile features
+[0.370s] -- Detecting C compile features - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++
+[0.457s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.459s] -- Detecting CXX compiler ABI info
+[0.539s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.563s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.595s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.595s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.803s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.874s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.876s] -- Added test 'lint_cmake' to check CMake code style
+[0.877s] -- Added test 'xmllint' to check XML markup files
+[0.879s] -- Configuring done
+[0.881s] -- Generating done
+[0.882s] -- Build files have been written to: /home/suii/colcon_ws/suii/ros2_ws/build/suii_description
+[0.885s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake /home/suii/colcon_ws/suii/ros2_ws/src/suii_description -DCMAKE_INSTALL_PREFIX=/home/suii/colcon_ws/suii/ros2_ws/install/suii_description
+[0.887s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[0.923s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[0.943s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description
+[0.951s] -- Install configuration: ""
+[0.951s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/package_run_dependencies/suii_description
+[0.952s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/parent_prefix_path/suii_description
+[0.952s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/ament_prefix_path.sh
+[0.952s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/ament_prefix_path.dsv
+[0.952s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/path.sh
+[0.952s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/path.dsv
+[0.952s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.bash
+[0.953s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.sh
+[0.953s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.zsh
+[0.953s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.dsv
+[0.953s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.dsv
+[0.953s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/packages/suii_description
+[0.953s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/cmake/suii_descriptionConfig.cmake
+[0.954s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/cmake/suii_descriptionConfig-version.cmake
+[0.954s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.xml
+[0.956s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description

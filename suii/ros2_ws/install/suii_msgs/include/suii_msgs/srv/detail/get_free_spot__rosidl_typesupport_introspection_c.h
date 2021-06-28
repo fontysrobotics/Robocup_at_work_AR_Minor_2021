@@ -1,0 +1,1 @@
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_typesupport_introspection_c/suii_msgs/srv/detail/get_free_spot__rosidl_typesupport_introspection_c.h

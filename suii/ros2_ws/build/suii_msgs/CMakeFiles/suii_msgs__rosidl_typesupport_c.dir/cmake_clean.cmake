@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/msg/suii_task__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/msg/suii_task_list__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/msg/task__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/msg/vision_scan_object__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/distance_to_goal__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/get_free_spot__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/item__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/item_drive__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/item_move__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/item_pick__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/item_place__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/manipulation_action__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/manipulation_pose__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/navigation_goal__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/navigation_repose__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/update_items__type_support.cpp.o"
+  "CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/suii_msgs/srv/vision_scan__type_support.cpp.o"
+  "libsuii_msgs__rosidl_typesupport_c.pdb"
+  "libsuii_msgs__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/suii_msgs/msg/suii_task__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/msg/suii_task_list__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/msg/task__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/msg/vision_scan_object__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/distance_to_goal__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/get_free_spot__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/item__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/item_drive__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/item_move__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/item_pick__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/item_place__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/manipulation_action__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/manipulation_pose__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/navigation_goal__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/navigation_repose__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/update_items__type_support.cpp"
+  "rosidl_typesupport_c/suii_msgs/srv/vision_scan__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/suii_msgs__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

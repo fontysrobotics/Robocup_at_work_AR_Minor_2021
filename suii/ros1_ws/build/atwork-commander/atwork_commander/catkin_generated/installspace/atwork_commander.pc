@@ -1,0 +1,8 @@
+prefix=/home/robohub/suii/ros1_ws/install
+
+Name: atwork_commander
+Description: Description of atwork_commander
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/robohub/suii/ros1_ws/devel
+
+Name: atwork_commander_gen
+Description: Description of atwork_commander_gen
+Version: 0.0.1
+Cflags: -I/home/robohub/suii/ros1_ws/src/atwork-commander/atwork_commander_gen/include
+Libs: -L${prefix}/lib -latwork_commander_gen
+Requires: 

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from suii_msgs/srv/Item.srv
+// generated code does not contain a copyright notice
+
+
+module suii_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Suii Item")
+    struct Item_Request {
+      uint16 itemid;
+
+      boolean onrobot;
+    };
+    struct Item_Response {
+      boolean sucess;
+
+      uint32 id;
+
+      string link;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+[0.036s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8
+[0.108s] [  0%] Built target suii_msgs__cpp
+[0.115s] [ 12%] Built target suii_msgs__rosidl_generator_c
+[0.158s] [ 24%] Built target suii_msgs__rosidl_typesupport_cpp
+[0.190s] [ 48%] Built target suii_msgs__rosidl_typesupport_introspection_cpp
+[0.191s] [ 48%] Built target suii_msgs__rosidl_typesupport_fastrtps_cpp
+[0.197s] [ 60%] Built target suii_msgs__rosidl_typesupport_c
+[0.204s] [ 72%] Built target suii_msgs__rosidl_typesupport_introspection_c
+[0.230s] [ 84%] Built target suii_msgs__rosidl_typesupport_fastrtps_c
+[0.249s] [ 84%] Built target suii_msgs
+[0.272s] [ 85%] Built target suii_msgs__py
+[0.313s] [ 96%] Built target suii_msgs__python
+[0.343s] [ 97%] Built target suii_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.347s] [ 98%] Built target suii_msgs__rosidl_typesupport_c__pyext
+[0.350s] [100%] Built target suii_msgs__rosidl_typesupport_introspection_c__pyext
+[0.418s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8

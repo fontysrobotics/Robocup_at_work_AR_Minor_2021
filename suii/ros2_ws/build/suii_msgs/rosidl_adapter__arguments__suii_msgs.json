@@ -1,0 +1,22 @@
+{
+  "package_name": "suii_msgs",
+  "non_idl_tuples": [
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:msg/SuiiTask.msg",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:msg/SuiiTaskList.msg",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:msg/Task.msg",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:msg/VisionScanObject.msg",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/DistanceToGoal.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/GetFreeSpot.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/Item.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/ItemDrive.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/ItemMove.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/ItemPick.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/ItemPlace.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/ManipulationAction.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/ManipulationPose.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/NavigationGoal.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/NavigationRepose.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/UpdateItems.srv",
+    "/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs:srv/VisionScan.srv"
+  ]
+}

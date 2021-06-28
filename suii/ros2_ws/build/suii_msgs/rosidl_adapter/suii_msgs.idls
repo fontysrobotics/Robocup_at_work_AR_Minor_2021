@@ -1,0 +1,17 @@
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:msg/SuiiTask.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:msg/SuiiTaskList.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:msg/Task.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:msg/VisionScanObject.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/DistanceToGoal.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/GetFreeSpot.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/Item.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/ItemDrive.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/ItemMove.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/ItemPick.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/ItemPlace.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/ManipulationAction.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/ManipulationPose.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/NavigationGoal.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/NavigationRepose.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/UpdateItems.idl
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/rosidl_adapter/suii_msgs:srv/VisionScan.idl

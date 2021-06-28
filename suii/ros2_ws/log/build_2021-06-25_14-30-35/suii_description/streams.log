@@ -1,0 +1,33 @@
+[0.041s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[0.401s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[0.474s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description
+[0.488s] -- Install configuration: ""
+[0.489s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes
+[0.489s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/base_link.STL
+[0.489s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_left_back.STL
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/lidar_back.STL
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_left_front.STL
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_right_back.STL
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_right_front.STL
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/lidar_front.STL
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//rviz
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//rviz/display.rviz
+[0.490s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//urdf
+[0.491s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//urdf/suii_description.urdf.xacro
+[0.491s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//urdf/suii_base.urdf.xacro
+[0.492s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/package_run_dependencies/suii_description
+[0.493s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/parent_prefix_path/suii_description
+[0.493s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/ament_prefix_path.sh
+[0.494s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/ament_prefix_path.dsv
+[0.494s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/path.sh
+[0.494s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/path.dsv
+[0.494s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.bash
+[0.494s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.sh
+[0.494s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.zsh
+[0.494s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.dsv
+[0.494s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.dsv
+[0.495s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/packages/suii_description
+[0.495s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/cmake/suii_descriptionConfig.cmake
+[0.496s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/cmake/suii_descriptionConfig-version.cmake
+[0.497s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.xml
+[0.497s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description

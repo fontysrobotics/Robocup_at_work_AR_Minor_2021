@@ -1,0 +1,1 @@
+/home/suii/colcon_ws/suii/ros2_ws/src/nav_test_package_ros2/setup.py

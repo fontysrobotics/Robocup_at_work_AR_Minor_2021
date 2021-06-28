@@ -1,0 +1,93 @@
+[0.044s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2 -- -j8 -l8
+[0.397s] [  3%] Built target suii_communication_ros2__cpp
+[0.399s] [ 12%] Built target suii_communication_ros2__rosidl_generator_c
+[0.400s] [ 22%] Built target suii_communication_ros2__rosidl_typesupport_introspection_cpp
+[0.400s] [ 32%] Built target suii_communication_ros2__rosidl_typesupport_cpp
+[0.400s] [ 51%] Built target suii_communication_ros2__rosidl_typesupport_c
+[0.401s] [ 51%] Built target suii_communication_ros2__rosidl_typesupport_introspection_c
+[0.401s] [ 61%] Built target suii_communication_ros2__rosidl_typesupport_fastrtps_cpp
+[0.401s] [ 70%] Built target suii_communication_ros2__rosidl_typesupport_fastrtps_c
+[0.401s] [ 70%] Built target suii_communication_ros2
+[0.402s] [ 74%] Built target suii_communication_ros2__py
+[0.402s] [ 80%] Built target suii_communication_ros2__python
+[0.402s] [ 87%] Built target suii_communication_ros2__rosidl_typesupport_c__pyext
+[0.402s] [ 93%] Built target suii_communication_ros2__rosidl_typesupport_introspection_c__pyext
+[0.402s] [100%] Built target suii_communication_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.403s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2 -- -j8 -l8
+[0.538s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2
+[0.574s] -- Install configuration: ""
+[0.574s] -- Execute custom install script
+[0.574s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/ament_index/resource_index/rosidl_interfaces/suii_communication_ros2
+[0.575s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/msg/rosidl_generator_c__visibility_control.h
+[0.575s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__functions.h
+[0.575s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__struct.h
+[0.575s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__type_support.h
+[0.575s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/table_goal.h
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/library_path.sh
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/library_path.dsv
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__rosidl_typesupport_fastrtps_c.h
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__rosidl_typesupport_fastrtps_c.so
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[0.576s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__rosidl_typesupport_fastrtps_cpp.so
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__rosidl_typesupport_introspection_c.h
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__builder.hpp
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__struct.hpp
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__traits.hpp
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/table_goal.hpp
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/include/suii_communication_ros2/srv/detail/table_goal__rosidl_typesupport_introspection_cpp.hpp
+[0.577s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/pythonpath.sh
+[0.578s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/pythonpath.dsv
+[0.578s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages/suii_communication_ros2/__init__.py
+[0.578s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages/suii_communication_ros2/srv/__init__.py
+[0.578s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages/suii_communication_ros2/srv/_table_goal.py
+[0.578s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages/suii_communication_ros2/suii_communication_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.579s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages/suii_communication_ros2/suii_communication_ros2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.579s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages/suii_communication_ros2/suii_communication_ros2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.579s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__python.so
+[0.579s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/srv/TableGoal.idl
+[0.579s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/srv/TableGoal.srv
+[0.579s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/srv/TableGoal_Request.msg
+[0.579s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/srv/TableGoal_Response.msg
+[0.580s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/Bridge_mapping.yaml
+[0.580s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/ament_index/resource_index/package_run_dependencies/suii_communication_ros2
+[0.580s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/ament_index/resource_index/parent_prefix_path/suii_communication_ros2
+[0.580s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/ament_prefix_path.sh
+[0.580s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/ament_prefix_path.dsv
+[0.580s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/path.sh
+[0.580s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/environment/path.dsv
+[0.581s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/local_setup.bash
+[0.581s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/local_setup.sh
+[0.581s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/local_setup.zsh
+[0.581s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/local_setup.dsv
+[0.581s] -- Symlinking: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.dsv
+[0.595s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/ament_index/resource_index/packages/suii_communication_ros2
+[0.596s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/rosidl_cmake-extras.cmake
+[0.596s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.597s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.597s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/ament_cmake_export_targets-extras.cmake
+[0.598s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.600s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.600s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.600s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2Config.cmake
+[0.600s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2Config-version.cmake
+[0.600s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.xml
+[0.602s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__rosidl_generator_c.so
+[0.602s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__rosidl_typesupport_introspection_c.so
+[0.602s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__rosidl_typesupport_c.so
+[0.602s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__rosidl_typesupport_introspection_cpp.so
+[0.607s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/libsuii_communication_ros2__rosidl_typesupport_cpp.so
+[0.670s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_generator_cExport.cmake
+[0.670s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_generator_cExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_introspection_cExport.cmake
+[0.670s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.670s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_cExport.cmake
+[0.671s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_cExport-noconfig.cmake
+[0.671s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_generator_cppExport.cmake
+[0.678s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_introspection_cppExport.cmake
+[0.680s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.680s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_cppExport.cmake
+[0.680s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/cmake/suii_communication_ros2__rosidl_typesupport_cppExport-noconfig.cmake
+[0.680s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2

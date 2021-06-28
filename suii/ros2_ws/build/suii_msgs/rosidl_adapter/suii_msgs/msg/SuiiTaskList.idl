@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from suii_msgs/msg/SuiiTaskList.msg
+// generated code does not contain a copyright notice
+
+#include "suii_msgs/msg/SuiiTask.idl"
+
+module suii_msgs {
+  module msg {
+    struct SuiiTaskList {
+      sequence<suii_msgs::msg::SuiiTask> tasks;
+
+      int32 error_index;
+    };
+  };
+};

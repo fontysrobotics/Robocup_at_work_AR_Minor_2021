@@ -1,0 +1,16 @@
+[0.041s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/Suii_code/colcon_ws/suii/install/nav_test_package_ros2 /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8
+[0.308s] [  0%] Built target suii_msgs__cpp
+[0.308s] [ 12%] Built target suii_msgs__rosidl_generator_c
+[0.309s] [ 36%] Built target suii_msgs__rosidl_typesupport_introspection_cpp
+[0.310s] [ 36%] Built target suii_msgs__rosidl_typesupport_cpp
+[0.311s] [ 48%] Built target suii_msgs__rosidl_typesupport_c
+[0.311s] [ 60%] Built target suii_msgs__rosidl_typesupport_introspection_c
+[0.312s] [ 72%] Built target suii_msgs__rosidl_typesupport_fastrtps_cpp
+[0.314s] [ 84%] Built target suii_msgs__rosidl_typesupport_fastrtps_c
+[0.314s] [ 84%] Built target suii_msgs
+[0.314s] [ 85%] Built target suii_msgs__py
+[0.315s] [ 96%] Built target suii_msgs__python
+[0.324s] [ 98%] Built target suii_msgs__rosidl_typesupport_introspection_c__pyext
+[0.325s] [ 99%] Built target suii_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.326s] [100%] Built target suii_msgs__rosidl_typesupport_c__pyext
+[0.346s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/Suii_code/colcon_ws/suii/install/nav_test_package_ros2 /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8

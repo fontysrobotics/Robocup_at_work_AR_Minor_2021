@@ -1,0 +1,1 @@
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs/ament_cmake_environment_hooks/local_setup.bash
