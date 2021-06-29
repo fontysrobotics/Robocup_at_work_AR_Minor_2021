@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from suii_msgs/srv/ManipulationPose.srv
+// generated code does not contain a copyright notice
+
+
+module suii_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Suii manipulation driver service file: /move_camera")
+    struct ManipulationPose_Request {
+      uint8 target;
+    };
+    struct ManipulationPose_Response {
+      boolean status;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+prefix=/home/robohub/suii/ros1_ws/devel
+
+Name: atwork_commander_com
+Description: Description of atwork_commander_com
+Version: 0.0.1
+Cflags: -I/home/robohub/suii/ros1_ws/src/atwork-commander/atwork_commander_com/include
+Libs: -L${prefix}/lib 
+Requires: pluginlib

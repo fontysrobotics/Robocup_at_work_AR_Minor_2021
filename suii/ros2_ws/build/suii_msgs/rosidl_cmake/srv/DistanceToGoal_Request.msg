@@ -1,0 +1,3 @@
+#Robot calculate euclidean distance action service file: /get_distance
+int64 x
+int64 y

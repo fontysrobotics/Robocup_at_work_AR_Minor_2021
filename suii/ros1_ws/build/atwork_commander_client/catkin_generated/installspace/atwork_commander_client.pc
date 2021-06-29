@@ -1,0 +1,8 @@
+prefix=/home/robohub/suii/ros1_ws/install
+
+Name: atwork_commander_client
+Description: Description of atwork_commander_client
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: pluginlib std_msgs atwork_commander_msgs

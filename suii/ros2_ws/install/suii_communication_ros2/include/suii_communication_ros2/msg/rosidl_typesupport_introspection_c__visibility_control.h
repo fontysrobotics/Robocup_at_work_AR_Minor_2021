@@ -1,0 +1,1 @@
+/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2/rosidl_typesupport_introspection_c/suii_communication_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h

@@ -1,0 +1,23 @@
+[0.030s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup -- -j8 -l8
+[0.310s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup -- -j8 -l8
+[0.332s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup
+[0.344s] -- Install configuration: ""
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup//launch
+[0.345s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup//launch/suii_bringup_launch.py
+[0.345s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup//launch/suii_bringup.launch.py
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/ament_index/resource_index/package_run_dependencies/suii_bringup
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/ament_index/resource_index/parent_prefix_path/suii_bringup
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/environment/ament_prefix_path.sh
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/environment/ament_prefix_path.dsv
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/environment/path.sh
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/environment/path.dsv
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/local_setup.bash
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/local_setup.sh
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/local_setup.zsh
+[0.345s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/local_setup.dsv
+[0.346s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.dsv
+[0.346s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/ament_index/resource_index/packages/suii_bringup
+[0.346s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/cmake/suii_bringupConfig.cmake
+[0.346s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/cmake/suii_bringupConfig-version.cmake
+[0.346s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.xml
+[0.364s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup

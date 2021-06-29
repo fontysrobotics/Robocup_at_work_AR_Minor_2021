@@ -1,0 +1,605 @@
+[0.257s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.257s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe6266a60a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe6266a60a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe6266a65e0>)
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.262s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/suii/colcon_ws/suii/ros2_ws'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/maps) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav_test_package_ros2) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav_test_package_ros2' with type 'ros.ament_python' and name 'nav_test_package_ros2'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros1_bridge' with type 'ros.ament_cmake' and name 'ros1_bridge'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_bringup) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/suii_bringup' with type 'ros.ament_cmake' and name 'suii_bringup'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_communication_ros2) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/suii_communication_ros2' with type 'ros.ament_cmake' and name 'suii_communication_ros2'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_description) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/suii_description' with type 'ros.ament_cmake' and name 'suii_description'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extension 'ignore'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extension 'ignore_ament_install'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extensions ['colcon_pkg']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extension 'colcon_pkg'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extensions ['colcon_meta']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extension 'colcon_meta'
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extensions ['ros']
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_msgs) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/suii_msgs' with type 'ros.ament_cmake' and name 'suii_msgs'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'ros'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/suii_navigation': Error(s) in package 'src/suii_navigation/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 14, column 26
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extensions ['cmake', 'python']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'cmake'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'python'
+[0.286s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/suii_navigation' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extensions ['python_setup_py']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/suii_navigation) by extension 'python_setup_py'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/suii_navigation' with type 'python' and name 'suii_navigation'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/urg_node) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urg_node' with type 'ros.ament_cmake' and name 'urg_node'
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'cmake_target' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.497s] Level 5:colcon.colcon_core.verb:set package 'suii_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.497s] DEBUG:colcon.colcon_core.verb:Building package 'suii_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/suii_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'cmake_target' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'suii_communication_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'suii_communication_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/suii_communication_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'suii_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'suii_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/suii_description', 'symlink_install': False, 'test_result_base': None}
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'cmake_target' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'suii_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'suii_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'cmake_target' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.506s] Level 5:colcon.colcon_core.verb:set package 'suii_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.506s] DEBUG:colcon.colcon_core.verb:Building package 'suii_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/suii_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'urg_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'urg_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/urg_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/urg_node', 'symlink_install': False, 'test_result_base': None}
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'cmake_target' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.511s] Level 5:colcon.colcon_core.verb:set package 'nav_test_package_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.511s] DEBUG:colcon.colcon_core.verb:Building package 'nav_test_package_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/nav_test_package_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'ros1_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge', 'merge_install': False, 'path': '/home/suii/colcon_ws/suii/ros2_ws/src/ros1_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.514s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.516s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs' with build type 'ament_cmake'
+[0.516s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_msgs'
+[0.520s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.522s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.524s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_communication_ros2' with build type 'ament_cmake'
+[0.525s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_communication_ros2'
+[0.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.528s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.530s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_bringup' with build type 'ament_cmake'
+[0.531s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_bringup'
+[0.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.534s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_description' with build type 'ament_cmake'
+[0.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_description'
+[0.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.541s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_navigation'
+[0.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.546s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suii/colcon_ws/suii/ros2_ws/src/urg_node' with build type 'ament_cmake'
+[0.549s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suii/colcon_ws/suii/ros2_ws/src/urg_node'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2 -- -j8 -l8
+[0.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup -- -j8 -l8
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation': PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation --uninstall --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/build
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/urg_node -- -j8 -l8
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2 -- -j8 -l8
+[1.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup -- -j8 -l8
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description
+[1.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_bringup)
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup' for CMake module files
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup' for CMake config files
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_bringup', 'cmake_prefix_path')
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/hook/cmake_prefix_path.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/hook/cmake_prefix_path.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/hook/cmake_prefix_path.sh'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/bin'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/lib/pkgconfig/suii_bringup.pc'
+[1.133s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/lib/python3.8/site-packages'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.dsv'
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_bringup
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.sh'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.bash'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.zsh'
+[1.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/colcon-core/packages/suii_bringup)
+[1.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2
+[1.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_description)
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description' for CMake module files
+[1.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description' for CMake config files
+[1.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_description', 'cmake_prefix_path')
+[1.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/hook/cmake_prefix_path.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/hook/cmake_prefix_path.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/hook/cmake_prefix_path.sh'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/bin'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/lib/pkgconfig/suii_description.pc'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/lib/python3.8/site-packages'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.ps1'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.sh'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.bash'
+[1.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.zsh'
+[1.171s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/colcon-core/packages/suii_description)
+[1.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/urg_node -- -j8 -l8
+[1.197s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_bringup)
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup' for CMake module files
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup' for CMake config files
+[1.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_bringup', 'cmake_prefix_path')
+[1.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/hook/cmake_prefix_path.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/hook/cmake_prefix_path.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/hook/cmake_prefix_path.sh'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/bin'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/lib/pkgconfig/suii_bringup.pc'
+[1.202s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/lib/python3.8/site-packages'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.ps1'
+[1.204s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.dsv'
+[1.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.sh'
+[1.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.bash'
+[1.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup/package.zsh'
+[1.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/colcon-core/packages/suii_bringup)
+[1.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_description)
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description' for CMake module files
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description' for CMake config files
+[1.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_description', 'cmake_prefix_path')
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/hook/cmake_prefix_path.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/hook/cmake_prefix_path.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/hook/cmake_prefix_path.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/lib/pkgconfig/suii_description.pc'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/lib/python3.8/site-packages'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.ps1'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.dsv'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.sh'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.bash'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.zsh'
+[1.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/colcon-core/packages/suii_description)
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/urg_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/urg_node
+[1.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[1.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/urg_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/urg_node
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node' for CMake module files
+[1.293s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node' for CMake config files
+[1.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[1.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib'
+[1.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[1.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/bin'
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib/python3.8/site-packages'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.sh'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.bash'
+[1.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.zsh'
+[1.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/colcon-core/packages/urg_node)
+[1.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_communication_ros2)
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2' for CMake module files
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2' for CMake config files
+[1.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_communication_ros2', 'cmake_prefix_path')
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/cmake_prefix_path.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/cmake_prefix_path.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/cmake_prefix_path.sh'
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib'
+[1.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_communication_ros2', 'ld_library_path_lib')
+[1.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/ld_library_path_lib.ps1'
+[1.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/ld_library_path_lib.dsv'
+[1.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/ld_library_path_lib.sh'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/bin'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/pkgconfig/suii_communication_ros2.pc'
+[1.320s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages'
+[1.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_communication_ros2', 'pythonpath')
+[1.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/pythonpath.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/pythonpath.dsv'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/pythonpath.sh'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.sh'
+[1.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.bash'
+[1.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.zsh'
+[1.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/colcon-core/packages/suii_communication_ros2)
+[1.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urg_node)
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node' for CMake module files
+[1.385s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node' for CMake config files
+[1.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'cmake_prefix_path')
+[1.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.ps1'
+[1.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.dsv'
+[1.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/cmake_prefix_path.sh'
+[1.389s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib'
+[1.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('urg_node', 'ld_library_path_lib')
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.ps1'
+[1.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.dsv'
+[1.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/hook/ld_library_path_lib.sh'
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/bin'
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib/pkgconfig/urg_node.pc'
+[1.391s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib/python3.8/site-packages'
+[1.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.ps1'
+[1.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.dsv'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.sh'
+[1.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.bash'
+[1.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/urg_node/package.zsh'
+[1.397s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/share/colcon-core/packages/urg_node)
+[1.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_communication_ros2)
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2' for CMake module files
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2' for CMake config files
+[1.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_communication_ros2', 'cmake_prefix_path')
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/cmake_prefix_path.ps1'
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/cmake_prefix_path.dsv'
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/cmake_prefix_path.sh'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib'
+[1.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_communication_ros2', 'ld_library_path_lib')
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/ld_library_path_lib.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/ld_library_path_lib.dsv'
+[1.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/ld_library_path_lib.sh'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/bin'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/pkgconfig/suii_communication_ros2.pc'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages'
+[1.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_communication_ros2', 'pythonpath')
+[1.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/pythonpath.ps1'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/pythonpath.dsv'
+[1.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/hook/pythonpath.sh'
+[1.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.ps1'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.dsv'
+[1.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.sh'
+[1.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.bash'
+[1.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/suii_communication_ros2/package.zsh'
+[1.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/share/colcon-core/packages/suii_communication_ros2)
+[1.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation' returned '0': PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation --uninstall --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/build
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_navigation': PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suii_navigation build --build-base /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/build install --prefix /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation --record /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/install.log --single-version-externally-managed
+[1.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_msgs)
+[1.762s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs' for CMake module files
+[1.763s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs' for CMake config files
+[1.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_msgs', 'cmake_prefix_path')
+[1.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/cmake_prefix_path.ps1'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/cmake_prefix_path.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/cmake_prefix_path.sh'
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib'
+[1.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_msgs', 'ld_library_path_lib')
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/ld_library_path_lib.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/ld_library_path_lib.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/ld_library_path_lib.sh'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/bin'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/pkgconfig/suii_msgs.pc'
+[1.771s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages'
+[1.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_msgs', 'pythonpath')
+[1.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/pythonpath.ps1'
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/pythonpath.dsv'
+[1.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/pythonpath.sh'
+[1.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.dsv'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.sh'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.bash'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.zsh'
+[1.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/colcon-core/packages/suii_msgs)
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation' for CMake module files
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/src/suii_navigation' returned '0': PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suii_navigation build --build-base /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/build install --prefix /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation --record /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/install.log --single-version-externally-managed
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation' for CMake config files
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/bin'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/pkgconfig/suii_navigation.pc'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages'
+[1.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_navigation', 'pythonpath')
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/hook/pythonpath.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/hook/pythonpath.dsv'
+[1.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/hook/pythonpath.sh'
+[1.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_navigation)
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/package.ps1'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/package.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/package.sh'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/package.bash'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation/package.zsh'
+[1.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/colcon-core/packages/suii_navigation)
+[2.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(suii_msgs)
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs' for CMake module files
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs' for CMake config files
+[2.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_msgs', 'cmake_prefix_path')
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/cmake_prefix_path.ps1'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/cmake_prefix_path.dsv'
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/cmake_prefix_path.sh'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib'
+[2.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_msgs', 'ld_library_path_lib')
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/ld_library_path_lib.ps1'
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/ld_library_path_lib.dsv'
+[2.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/ld_library_path_lib.sh'
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/bin'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/pkgconfig/suii_msgs.pc'
+[2.095s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages'
+[2.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('suii_msgs', 'pythonpath')
+[2.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/pythonpath.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/pythonpath.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/hook/pythonpath.sh'
+[2.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.dsv'
+[2.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.sh'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.bash'
+[2.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.zsh'
+[2.100s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/colcon-core/packages/suii_msgs)
+[2.100s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/suii/colcon_ws/suii/ros2_ws/src/nav_test_package_ros2' with build type 'ament_python'
+[2.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_test_package_ros2', 'ament_prefix_path')
+[2.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/hook/ament_prefix_path.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/hook/ament_prefix_path.dsv'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/hook/ament_prefix_path.sh'
+[2.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.106s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.108s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/suii/colcon_ws/suii/ros2_ws/src/ros1_bridge' with build type 'ament_cmake'
+[2.109s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/suii/colcon_ws/suii/ros2_ws/src/ros1_bridge'
+[2.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.113s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.391s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/suii/colcon_ws/suii/ros2_ws/src/nav_test_package_ros2'
+[2.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.395s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge -- -j8 -l8
+[2.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2 --uninstall --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/build
+[2.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge -- -j8 -l8
+[2.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge
+[2.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[2.533s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge' for CMake module files
+[2.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/ros1_bridge
+[2.534s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge' for CMake config files
+[2.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[2.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[2.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[2.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[2.536s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/bin'
+[2.536s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[2.537s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/lib/python3.8/site-packages'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.sh'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.bash'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[2.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[2.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge' for CMake module files
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge' for CMake config files
+[2.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[2.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/bin'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/lib/python3.8/site-packages'
+[2.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.sh'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.bash'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[2.575s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[2.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2' returned '0': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2 --uninstall --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/build
+[2.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/src/nav_test_package_ros2': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_test_package_ros2 build --build-base /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/build install --prefix /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2 --record /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/install.log --single-version-externally-managed
+[3.146s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2' for CMake module files
+[3.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/src/nav_test_package_ros2' returned '0': CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node:/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge:/home/suii/colcon_ws/suii/ros2_ws/install/suii_description:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2:/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:/home/suii/colcon_ws/suii/ros2_ws/install/urg_node/lib:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_communication_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/nav_test_package_ros2 build --build-base /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/build install --prefix /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2 --record /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/install.log --single-version-externally-managed
+[3.147s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2' for CMake config files
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib'
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/bin'
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/pkgconfig/nav_test_package_ros2.pc'
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages'
+[3.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav_test_package_ros2', 'pythonpath')
+[3.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/hook/pythonpath.ps1'
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/hook/pythonpath.dsv'
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/hook/pythonpath.sh'
+[3.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav_test_package_ros2)
+[3.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/package.ps1'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/package.dsv'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/package.sh'
+[3.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/package.bash'
+[3.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/nav_test_package_ros2/package.zsh'
+[3.155s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/share/colcon-core/packages/nav_test_package_ros2)
+[3.155s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.156s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.156s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.163s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.177s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.178s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suii/colcon_ws/suii/ros2_ws/install/local_setup.ps1'
+[3.179s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suii/colcon_ws/suii/ros2_ws/install/_local_setup_util_ps1.py'
+[3.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suii/colcon_ws/suii/ros2_ws/install/setup.ps1'
+[3.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suii/colcon_ws/suii/ros2_ws/install/local_setup.sh'
+[3.188s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/suii/colcon_ws/suii/ros2_ws/install/_local_setup_util_sh.py'
+[3.190s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suii/colcon_ws/suii/ros2_ws/install/setup.sh'
+[3.194s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suii/colcon_ws/suii/ros2_ws/install/local_setup.bash'
+[3.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suii/colcon_ws/suii/ros2_ws/install/setup.bash'
+[3.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/suii/colcon_ws/suii/ros2_ws/install/local_setup.zsh'
+[3.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/suii/colcon_ws/suii/ros2_ws/install/setup.zsh'

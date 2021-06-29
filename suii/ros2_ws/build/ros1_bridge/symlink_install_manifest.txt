@@ -1,0 +1,17 @@
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ament_index/resource_index/package_run_dependencies/ros1_bridge
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ament_index/resource_index/parent_prefix_path/ros1_bridge
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.sh
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.dsv
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/environment/path.sh
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/environment/path.dsv
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/local_setup.bash
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/local_setup.sh
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/local_setup.zsh
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/local_setup.dsv
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.dsv
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ament_index/resource_index/packages/ros1_bridge
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_package.cmake
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_interface_packages.cmake
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig.cmake
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig-version.cmake
+/home/suii/colcon_ws/suii/ros2_ws/install/ros1_bridge/share/ros1_bridge/package.xml

@@ -1,0 +1,2 @@
+# Navigation manager direct movement service file: /repose
+geometry_msgs/Vector3 target

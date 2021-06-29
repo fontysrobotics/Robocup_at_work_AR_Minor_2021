@@ -1,0 +1,2 @@
+atwork-commander/atwork_commander:atwork-commander/atwork_commander_com:atwork-commander/atwork_commander_core:atwork-commander/atwork_commander_gen:atwork-commander/atwork_commander_gui:atwork-commander/atwork_commander_msgs:atwork_commander_client:suii_communication_ros1
+-DCATKIN_DEVEL_PREFIX=/home/robohub/suii/ros1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robohub/suii/ros1_ws/install -G Unix Makefiles

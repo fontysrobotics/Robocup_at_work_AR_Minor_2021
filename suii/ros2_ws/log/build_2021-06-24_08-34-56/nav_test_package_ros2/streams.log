@@ -1,0 +1,17 @@
+[0.212s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2': AMENT_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2 --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/build --no-deps install_data --install-dir /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2
+[0.418s] running develop
+[0.532s] running egg_info
+[0.532s] writing nav_test_package_ros2.egg-info/PKG-INFO
+[0.533s] writing dependency_links to nav_test_package_ros2.egg-info/dependency_links.txt
+[0.533s] writing entry points to nav_test_package_ros2.egg-info/entry_points.txt
+[0.533s] writing requirements to nav_test_package_ros2.egg-info/requires.txt
+[0.533s] writing top-level names to nav_test_package_ros2.egg-info/top_level.txt
+[0.560s] reading manifest file 'nav_test_package_ros2.egg-info/SOURCES.txt'
+[0.561s] writing manifest file 'nav_test_package_ros2.egg-info/SOURCES.txt'
+[0.590s] running build_ext
+[0.590s] Creating /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages/nav-test-package-ros2.egg-link (link to .)
+[0.591s] Installing service script to /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/nav_test_package_ros2
+[0.591s] 
+[0.591s] Installed /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2
+[0.591s] running install_data
+[0.618s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2' returned '0': AMENT_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs LD_LIBRARY_PATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages:/home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2 --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2/build --no-deps install_data --install-dir /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2

@@ -1,0 +1,357 @@
+[0.044s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8
+[0.358s] [  0%] Built target suii_msgs__cpp
+[0.359s] [ 12%] Built target suii_msgs__rosidl_generator_c
+[0.360s] [ 24%] Built target suii_msgs__rosidl_typesupport_c
+[0.360s] [ 36%] Built target suii_msgs__rosidl_typesupport_introspection_cpp
+[0.361s] [ 60%] Built target suii_msgs__rosidl_typesupport_introspection_c
+[0.361s] [ 60%] Built target suii_msgs__rosidl_typesupport_cpp
+[0.363s] [ 72%] Built target suii_msgs__rosidl_typesupport_fastrtps_cpp
+[0.363s] [ 84%] Built target suii_msgs__rosidl_typesupport_fastrtps_c
+[0.363s] [ 84%] Built target suii_msgs
+[0.363s] [ 85%] Built target suii_msgs__py
+[0.364s] [ 96%] Built target suii_msgs__python
+[0.365s] [ 97%] Built target suii_msgs__rosidl_typesupport_c__pyext
+[0.366s] [ 99%] Built target suii_msgs__rosidl_typesupport_introspection_c__pyext
+[0.367s] [100%] Built target suii_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.377s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs -- -j8 -l8
+[0.647s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs
+[0.656s] -- Install configuration: ""
+[0.656s] -- Execute custom install script
+[0.657s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/ament_index/resource_index/rosidl_interfaces/suii_msgs
+[0.658s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__functions.h
+[0.658s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__struct.h
+[0.658s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__type_support.h
+[0.658s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__functions.h
+[0.659s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__struct.h
+[0.659s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__type_support.h
+[0.659s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__functions.h
+[0.659s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__struct.h
+[0.659s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__type_support.h
+[0.660s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__functions.h
+[0.660s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__struct.h
+[0.660s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__type_support.h
+[0.660s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.660s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/suii_task.h
+[0.660s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/suii_task_list.h
+[0.661s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/task.h
+[0.661s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/vision_scan_object.h
+[0.661s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__functions.h
+[0.661s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__struct.h
+[0.661s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__type_support.h
+[0.661s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__functions.h
+[0.662s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__struct.h
+[0.662s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__type_support.h
+[0.662s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__functions.h
+[0.662s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__struct.h
+[0.662s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__type_support.h
+[0.662s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__functions.h
+[0.662s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__struct.h
+[0.663s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__type_support.h
+[0.663s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__functions.h
+[0.663s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__struct.h
+[0.663s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__type_support.h
+[0.663s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__functions.h
+[0.663s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__struct.h
+[0.663s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__type_support.h
+[0.664s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__functions.h
+[0.664s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__struct.h
+[0.664s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__type_support.h
+[0.664s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__functions.h
+[0.664s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__struct.h
+[0.664s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__type_support.h
+[0.665s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__functions.h
+[0.665s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__struct.h
+[0.665s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__type_support.h
+[0.665s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__functions.h
+[0.665s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__struct.h
+[0.665s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__type_support.h
+[0.665s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__functions.h
+[0.666s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__struct.h
+[0.666s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__type_support.h
+[0.666s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__functions.h
+[0.666s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__struct.h
+[0.666s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__type_support.h
+[0.666s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__functions.h
+[0.667s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__struct.h
+[0.667s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__type_support.h
+[0.667s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/distance_to_goal.h
+[0.667s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/get_free_spot.h
+[0.667s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item.h
+[0.667s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_drive.h
+[0.667s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_move.h
+[0.668s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_pick.h
+[0.668s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_place.h
+[0.668s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/manipulation_action.h
+[0.668s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/manipulation_pose.h
+[0.668s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/navigation_goal.h
+[0.668s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/navigation_repose.h
+[0.668s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/update_items.h
+[0.669s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/vision_scan.h
+[0.669s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/library_path.sh
+[0.669s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/library_path.dsv
+[0.670s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__rosidl_typesupport_fastrtps_c.h
+[0.671s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__rosidl_typesupport_fastrtps_c.h
+[0.671s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__rosidl_typesupport_fastrtps_c.h
+[0.671s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__rosidl_typesupport_fastrtps_c.h
+[0.671s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.671s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__rosidl_typesupport_fastrtps_c.h
+[0.671s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__rosidl_typesupport_fastrtps_c.h
+[0.671s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__rosidl_typesupport_fastrtps_c.h
+[0.672s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__rosidl_typesupport_fastrtps_c.h
+[0.672s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__rosidl_typesupport_fastrtps_c.h
+[0.672s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__rosidl_typesupport_fastrtps_c.h
+[0.672s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__rosidl_typesupport_fastrtps_c.h
+[0.672s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__rosidl_typesupport_fastrtps_c.h
+[0.672s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__rosidl_typesupport_fastrtps_c.h
+[0.672s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__rosidl_typesupport_fastrtps_c.h
+[0.673s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__rosidl_typesupport_fastrtps_c.h
+[0.673s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__rosidl_typesupport_fastrtps_c.h
+[0.673s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__rosidl_typesupport_fastrtps_c.h
+[0.673s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__rosidl_typesupport_fastrtps_c.so
+[0.674s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__rosidl_typesupport_fastrtps_cpp.hpp
+[0.674s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__rosidl_typesupport_fastrtps_cpp.hpp
+[0.675s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[0.675s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__rosidl_typesupport_fastrtps_cpp.hpp
+[0.675s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.675s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[0.675s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__rosidl_typesupport_fastrtps_cpp.hpp
+[0.675s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__rosidl_typesupport_fastrtps_cpp.hpp
+[0.675s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[0.676s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__rosidl_typesupport_fastrtps_cpp.hpp
+[0.676s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__rosidl_typesupport_fastrtps_cpp.hpp
+[0.676s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__rosidl_typesupport_fastrtps_cpp.hpp
+[0.676s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__rosidl_typesupport_fastrtps_cpp.hpp
+[0.676s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[0.676s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__rosidl_typesupport_fastrtps_cpp.hpp
+[0.676s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__rosidl_typesupport_fastrtps_cpp.hpp
+[0.677s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__rosidl_typesupport_fastrtps_cpp.hpp
+[0.677s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[0.677s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.678s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__rosidl_typesupport_introspection_c.h
+[0.678s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__rosidl_typesupport_introspection_c.h
+[0.678s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__rosidl_typesupport_introspection_c.h
+[0.678s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__rosidl_typesupport_introspection_c.h
+[0.678s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.679s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__rosidl_typesupport_introspection_c.h
+[0.679s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__rosidl_typesupport_introspection_c.h
+[0.679s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__rosidl_typesupport_introspection_c.h
+[0.679s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__rosidl_typesupport_introspection_c.h
+[0.679s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__rosidl_typesupport_introspection_c.h
+[0.679s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__rosidl_typesupport_introspection_c.h
+[0.679s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__rosidl_typesupport_introspection_c.h
+[0.680s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__rosidl_typesupport_introspection_c.h
+[0.680s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__rosidl_typesupport_introspection_c.h
+[0.680s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__rosidl_typesupport_introspection_c.h
+[0.680s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__rosidl_typesupport_introspection_c.h
+[0.680s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__rosidl_typesupport_introspection_c.h
+[0.680s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__rosidl_typesupport_introspection_c.h
+[0.681s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__builder.hpp
+[0.681s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__struct.hpp
+[0.682s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__traits.hpp
+[0.682s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__builder.hpp
+[0.682s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__struct.hpp
+[0.682s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__traits.hpp
+[0.682s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__builder.hpp
+[0.682s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__struct.hpp
+[0.682s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__traits.hpp
+[0.683s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__builder.hpp
+[0.683s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__struct.hpp
+[0.683s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__traits.hpp
+[0.683s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/suii_task.hpp
+[0.683s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/suii_task_list.hpp
+[0.683s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/task.hpp
+[0.683s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/vision_scan_object.hpp
+[0.684s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__builder.hpp
+[0.684s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__struct.hpp
+[0.684s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__traits.hpp
+[0.684s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__builder.hpp
+[0.684s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__struct.hpp
+[0.684s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__traits.hpp
+[0.685s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__builder.hpp
+[0.685s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__struct.hpp
+[0.685s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__traits.hpp
+[0.685s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__builder.hpp
+[0.685s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__struct.hpp
+[0.685s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__traits.hpp
+[0.685s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__builder.hpp
+[0.686s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__struct.hpp
+[0.686s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__traits.hpp
+[0.686s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__builder.hpp
+[0.686s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__struct.hpp
+[0.686s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__traits.hpp
+[0.686s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__builder.hpp
+[0.686s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__struct.hpp
+[0.687s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__traits.hpp
+[0.687s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__builder.hpp
+[0.687s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__struct.hpp
+[0.687s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__traits.hpp
+[0.687s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__builder.hpp
+[0.687s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__struct.hpp
+[0.687s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__traits.hpp
+[0.688s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__builder.hpp
+[0.688s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__struct.hpp
+[0.688s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__traits.hpp
+[0.688s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__builder.hpp
+[0.688s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__struct.hpp
+[0.688s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__traits.hpp
+[0.688s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__builder.hpp
+[0.689s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__struct.hpp
+[0.689s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__traits.hpp
+[0.689s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__builder.hpp
+[0.689s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__struct.hpp
+[0.689s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__traits.hpp
+[0.689s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/distance_to_goal.hpp
+[0.689s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/get_free_spot.hpp
+[0.690s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item.hpp
+[0.690s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_drive.hpp
+[0.690s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_move.hpp
+[0.690s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_pick.hpp
+[0.690s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/item_place.hpp
+[0.690s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/manipulation_action.hpp
+[0.690s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/manipulation_pose.hpp
+[0.691s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/navigation_goal.hpp
+[0.691s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/navigation_repose.hpp
+[0.691s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/update_items.hpp
+[0.691s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/vision_scan.hpp
+[0.692s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task__rosidl_typesupport_introspection_cpp.hpp
+[0.692s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/suii_task_list__rosidl_typesupport_introspection_cpp.hpp
+[0.692s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[0.692s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/msg/detail/vision_scan_object__rosidl_typesupport_introspection_cpp.hpp
+[0.692s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/distance_to_goal__rosidl_typesupport_introspection_cpp.hpp
+[0.693s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/get_free_spot__rosidl_typesupport_introspection_cpp.hpp
+[0.693s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item__rosidl_typesupport_introspection_cpp.hpp
+[0.693s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_drive__rosidl_typesupport_introspection_cpp.hpp
+[0.693s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_move__rosidl_typesupport_introspection_cpp.hpp
+[0.693s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_pick__rosidl_typesupport_introspection_cpp.hpp
+[0.693s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/item_place__rosidl_typesupport_introspection_cpp.hpp
+[0.693s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_action__rosidl_typesupport_introspection_cpp.hpp
+[0.694s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/manipulation_pose__rosidl_typesupport_introspection_cpp.hpp
+[0.694s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_goal__rosidl_typesupport_introspection_cpp.hpp
+[0.694s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/navigation_repose__rosidl_typesupport_introspection_cpp.hpp
+[0.694s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/update_items__rosidl_typesupport_introspection_cpp.hpp
+[0.694s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/include/suii_msgs/srv/detail/vision_scan__rosidl_typesupport_introspection_cpp.hpp
+[0.694s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/pythonpath.sh
+[0.695s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/pythonpath.dsv
+[0.695s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/__init__.py
+[0.695s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/msg/__init__.py
+[0.695s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/msg/_suii_task.py
+[0.695s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/msg/_suii_task_list.py
+[0.696s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/msg/_task.py
+[0.696s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/msg/_vision_scan_object.py
+[0.696s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/__init__.py
+[0.696s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_distance_to_goal.py
+[0.697s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_get_free_spot.py
+[0.697s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_item.py
+[0.697s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_item_drive.py
+[0.697s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_item_move.py
+[0.697s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_item_pick.py
+[0.697s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_item_place.py
+[0.697s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_manipulation_action.py
+[0.698s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_manipulation_pose.py
+[0.698s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_navigation_goal.py
+[0.698s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_navigation_repose.py
+[0.698s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_update_items.py
+[0.698s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/srv/_vision_scan.py
+[0.699s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/suii_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.699s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/suii_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.699s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/python3.8/site-packages/suii_msgs/suii_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.700s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__python.so
+[0.700s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/SuiiTask.idl
+[0.700s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/SuiiTaskList.idl
+[0.700s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/Task.idl
+[0.701s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/VisionScanObject.idl
+[0.701s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/DistanceToGoal.idl
+[0.701s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/GetFreeSpot.idl
+[0.701s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/Item.idl
+[0.701s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemDrive.idl
+[0.702s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemMove.idl
+[0.702s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPick.idl
+[0.702s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPlace.idl
+[0.702s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationAction.idl
+[0.703s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationPose.idl
+[0.703s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationGoal.idl
+[0.703s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationRepose.idl
+[0.703s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/UpdateItems.idl
+[0.703s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/VisionScan.idl
+[0.704s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/SuiiTask.msg
+[0.704s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/SuiiTaskList.msg
+[0.704s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/Task.msg
+[0.704s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/msg/VisionScanObject.msg
+[0.705s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/DistanceToGoal.srv
+[0.705s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/DistanceToGoal_Request.msg
+[0.705s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/DistanceToGoal_Response.msg
+[0.705s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/GetFreeSpot.srv
+[0.705s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/GetFreeSpot_Request.msg
+[0.706s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/GetFreeSpot_Response.msg
+[0.706s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/Item.srv
+[0.706s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/Item_Request.msg
+[0.706s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/Item_Response.msg
+[0.707s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemDrive.srv
+[0.707s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemDrive_Request.msg
+[0.707s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemDrive_Response.msg
+[0.707s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemMove.srv
+[0.707s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemMove_Request.msg
+[0.708s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemMove_Response.msg
+[0.708s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPick.srv
+[0.708s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPick_Request.msg
+[0.708s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPick_Response.msg
+[0.708s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPlace.srv
+[0.709s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPlace_Request.msg
+[0.709s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ItemPlace_Response.msg
+[0.709s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationAction.srv
+[0.709s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationAction_Request.msg
+[0.710s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationAction_Response.msg
+[0.710s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationPose.srv
+[0.710s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationPose_Request.msg
+[0.710s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/ManipulationPose_Response.msg
+[0.711s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationGoal.srv
+[0.711s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationGoal_Request.msg
+[0.711s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationGoal_Response.msg
+[0.711s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationRepose.srv
+[0.711s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationRepose_Request.msg
+[0.712s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/NavigationRepose_Response.msg
+[0.712s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/UpdateItems.srv
+[0.712s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/UpdateItems_Request.msg
+[0.712s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/UpdateItems_Response.msg
+[0.713s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/VisionScan.srv
+[0.713s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/VisionScan_Request.msg
+[0.713s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/srv/VisionScan_Response.msg
+[0.713s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/ament_index/resource_index/package_run_dependencies/suii_msgs
+[0.713s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/ament_index/resource_index/parent_prefix_path/suii_msgs
+[0.714s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/ament_prefix_path.sh
+[0.714s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/ament_prefix_path.dsv
+[0.714s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/path.sh
+[0.714s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/environment/path.dsv
+[0.715s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/local_setup.bash
+[0.715s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/local_setup.sh
+[0.715s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/local_setup.zsh
+[0.715s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/local_setup.dsv
+[0.715s] -- Symlinking: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.dsv
+[0.724s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/ament_index/resource_index/packages/suii_msgs
+[0.724s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/rosidl_cmake-extras.cmake
+[0.724s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.724s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.725s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgsConfig.cmake
+[0.726s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgsConfig-version.cmake
+[0.726s] -- Up-to-date symlink: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/package.xml
+[0.726s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__rosidl_generator_c.so
+[0.727s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__rosidl_typesupport_introspection_c.so
+[0.727s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__rosidl_typesupport_c.so
+[0.727s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__rosidl_typesupport_introspection_cpp.so
+[0.728s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/lib/libsuii_msgs__rosidl_typesupport_cpp.so
+[0.760s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_generator_cExport.cmake
+[0.760s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.760s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.760s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.760s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_cExport.cmake
+[0.761s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.761s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_generator_cppExport.cmake
+[0.761s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.761s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.761s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_cppExport.cmake
+[0.761s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_msgs/share/suii_msgs/cmake/suii_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.764s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_msgs

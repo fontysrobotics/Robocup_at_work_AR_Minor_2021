@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from suii_msgs/srv/DistanceToGoal.srv
+// generated code does not contain a copyright notice
+
+
+module suii_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Robot calculate euclidean distance action service file: /get_distance")
+    struct DistanceToGoal_Request {
+      int64 x;
+
+      int64 y;
+    };
+    struct DistanceToGoal_Response {
+      double distance;
+    };
+  };
+};

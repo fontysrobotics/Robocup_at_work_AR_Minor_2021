@@ -1,0 +1,126 @@
+// generated from rosidl_generator_cpp/resource/idl__traits.hpp.em
+// with input from suii_msgs:srv/GetFreeSpot.idl
+// generated code does not contain a copyright notice
+
+#ifndef SUII_MSGS__SRV__DETAIL__GET_FREE_SPOT__TRAITS_HPP_
+#define SUII_MSGS__SRV__DETAIL__GET_FREE_SPOT__TRAITS_HPP_
+
+#include "suii_msgs/srv/detail/get_free_spot__struct.hpp"
+#include <rosidl_runtime_cpp/traits.hpp>
+#include <stdint.h>
+#include <type_traits>
+
+namespace rosidl_generator_traits
+{
+
+template<>
+inline const char * data_type<suii_msgs::srv::GetFreeSpot_Request>()
+{
+  return "suii_msgs::srv::GetFreeSpot_Request";
+}
+
+template<>
+inline const char * name<suii_msgs::srv::GetFreeSpot_Request>()
+{
+  return "suii_msgs/srv/GetFreeSpot_Request";
+}
+
+template<>
+struct has_fixed_size<suii_msgs::srv::GetFreeSpot_Request>
+  : std::integral_constant<bool, true> {};
+
+template<>
+struct has_bounded_size<suii_msgs::srv::GetFreeSpot_Request>
+  : std::integral_constant<bool, true> {};
+
+template<>
+struct is_message<suii_msgs::srv::GetFreeSpot_Request>
+  : std::true_type {};
+
+}  // namespace rosidl_generator_traits
+
+namespace rosidl_generator_traits
+{
+
+template<>
+inline const char * data_type<suii_msgs::srv::GetFreeSpot_Response>()
+{
+  return "suii_msgs::srv::GetFreeSpot_Response";
+}
+
+template<>
+inline const char * name<suii_msgs::srv::GetFreeSpot_Response>()
+{
+  return "suii_msgs/srv/GetFreeSpot_Response";
+}
+
+template<>
+struct has_fixed_size<suii_msgs::srv::GetFreeSpot_Response>
+  : std::integral_constant<bool, true> {};
+
+template<>
+struct has_bounded_size<suii_msgs::srv::GetFreeSpot_Response>
+  : std::integral_constant<bool, true> {};
+
+template<>
+struct is_message<suii_msgs::srv::GetFreeSpot_Response>
+  : std::true_type {};
+
+}  // namespace rosidl_generator_traits
+
+namespace rosidl_generator_traits
+{
+
+template<>
+inline const char * data_type<suii_msgs::srv::GetFreeSpot>()
+{
+  return "suii_msgs::srv::GetFreeSpot";
+}
+
+template<>
+inline const char * name<suii_msgs::srv::GetFreeSpot>()
+{
+  return "suii_msgs/srv/GetFreeSpot";
+}
+
+template<>
+struct has_fixed_size<suii_msgs::srv::GetFreeSpot>
+  : std::integral_constant<
+    bool,
+    has_fixed_size<suii_msgs::srv::GetFreeSpot_Request>::value &&
+    has_fixed_size<suii_msgs::srv::GetFreeSpot_Response>::value
+  >
+{
+};
+
+template<>
+struct has_bounded_size<suii_msgs::srv::GetFreeSpot>
+  : std::integral_constant<
+    bool,
+    has_bounded_size<suii_msgs::srv::GetFreeSpot_Request>::value &&
+    has_bounded_size<suii_msgs::srv::GetFreeSpot_Response>::value
+  >
+{
+};
+
+template<>
+struct is_service<suii_msgs::srv::GetFreeSpot>
+  : std::true_type
+{
+};
+
+template<>
+struct is_service_request<suii_msgs::srv::GetFreeSpot_Request>
+  : std::true_type
+{
+};
+
+template<>
+struct is_service_response<suii_msgs::srv::GetFreeSpot_Response>
+  : std::true_type
+{
+};
+
+}  // namespace rosidl_generator_traits
+
+#endif  // SUII_MSGS__SRV__DETAIL__GET_FREE_SPOT__TRAITS_HPP_

@@ -1,0 +1,8 @@
+prefix=/home/robohub/suii/ros1_ws/install
+
+Name: suii_communication_ros1
+Description: Description of suii_communication_ros1
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy message_runtime std_msgs

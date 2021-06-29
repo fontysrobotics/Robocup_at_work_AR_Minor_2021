@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from suii_msgs/srv/UpdateItems.srv
+// generated code does not contain a copyright notice
+
+#include "suii_msgs/msg/VisionScanObject.idl"
+
+module suii_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Suii")
+    struct UpdateItems_Request {
+      sequence<suii_msgs::msg::VisionScanObject> items;
+    };
+    struct UpdateItems_Response {
+      boolean succes;
+    };
+  };
+};

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from suii_msgs/srv/ItemPlace.srv
+// generated code does not contain a copyright notice
+
+
+module suii_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Suii Item Manipulation driver service file: /pickItem /placeItem")
+    struct ItemPlace_Request {
+      uint16 itemid;
+
+      boolean onrobot;
+
+      boolean inhole;
+
+      uint16 placeposition;
+    };
+    struct ItemPlace_Response {
+      boolean sucess;
+
+      uint8 error;
+    };
+  };
+};

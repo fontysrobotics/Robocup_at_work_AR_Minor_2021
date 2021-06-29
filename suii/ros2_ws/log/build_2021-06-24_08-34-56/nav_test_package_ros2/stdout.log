@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing nav_test_package_ros2.egg-info/PKG-INFO
+writing dependency_links to nav_test_package_ros2.egg-info/dependency_links.txt
+writing entry points to nav_test_package_ros2.egg-info/entry_points.txt
+writing requirements to nav_test_package_ros2.egg-info/requires.txt
+writing top-level names to nav_test_package_ros2.egg-info/top_level.txt
+reading manifest file 'nav_test_package_ros2.egg-info/SOURCES.txt'
+writing manifest file 'nav_test_package_ros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/python3.8/site-packages/nav-test-package-ros2.egg-link (link to .)
+Installing service script to /home/suii/colcon_ws/suii/ros2_ws/install/nav_test_package_ros2/lib/nav_test_package_ros2
+
+Installed /home/suii/colcon_ws/suii/ros2_ws/build/nav_test_package_ros2
+running install_data

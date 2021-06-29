@@ -1,0 +1,16 @@
+[0.066s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/Suii_code/colcon_ws/suii/install/nav_test_package_ros2 /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2 -- -j8 -l8
+[0.325s] [  3%] Built target suii_communication_ros2__cpp
+[0.326s] [ 12%] Built target suii_communication_ros2__rosidl_generator_c
+[0.326s] [ 22%] Built target suii_communication_ros2__rosidl_typesupport_introspection_c
+[0.326s] [ 32%] Built target suii_communication_ros2__rosidl_typesupport_cpp
+[0.326s] [ 41%] Built target suii_communication_ros2__rosidl_typesupport_fastrtps_cpp
+[0.326s] [ 58%] Built target suii_communication_ros2__rosidl_typesupport_c
+[0.326s] [ 61%] Built target suii_communication_ros2__rosidl_typesupport_introspection_cpp
+[0.326s] [ 70%] Built target suii_communication_ros2__rosidl_typesupport_fastrtps_c
+[0.326s] [ 70%] Built target suii_communication_ros2
+[0.327s] [ 74%] Built target suii_communication_ros2__py
+[0.327s] [ 80%] Built target suii_communication_ros2__python
+[0.327s] [ 87%] Built target suii_communication_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.327s] [ 93%] Built target suii_communication_ros2__rosidl_typesupport_c__pyext
+[0.327s] [100%] Built target suii_communication_ros2__rosidl_typesupport_introspection_c__pyext
+[0.327s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/suii/Suii_code/colcon_ws/suii/install/nav_test_package_ros2 /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_communication_ros2 -- -j8 -l8

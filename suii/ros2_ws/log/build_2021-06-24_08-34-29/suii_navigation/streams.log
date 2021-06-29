@@ -1,0 +1,16 @@
+[0.234s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation': PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/build --no-deps install_data --install-dir /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation
+[0.442s] running develop
+[0.561s] running egg_info
+[0.561s] writing suii_navigation.egg-info/PKG-INFO
+[0.561s] writing dependency_links to suii_navigation.egg-info/dependency_links.txt
+[0.562s] writing entry points to suii_navigation.egg-info/entry_points.txt
+[0.562s] writing requirements to suii_navigation.egg-info/requires.txt
+[0.562s] writing top-level names to suii_navigation.egg-info/top_level.txt
+[0.590s] reading manifest file 'suii_navigation.egg-info/SOURCES.txt'
+[0.590s] writing manifest file 'suii_navigation.egg-info/SOURCES.txt'
+[0.621s] running build_ext
+[0.621s] Creating /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages/suii-navigation.egg-link (link to .)
+[0.622s] 
+[0.622s] Installed /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation
+[0.622s] running install_data
+[0.650s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation' returned '0': PYTHONPATH=/home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation --editable --build-directory /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation/build --no-deps install_data --install-dir /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation

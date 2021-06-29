@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating suii_navigation.egg-info
+writing suii_navigation.egg-info/PKG-INFO
+writing dependency_links to suii_navigation.egg-info/dependency_links.txt
+writing entry points to suii_navigation.egg-info/entry_points.txt
+writing requirements to suii_navigation.egg-info/requires.txt
+writing top-level names to suii_navigation.egg-info/top_level.txt
+writing manifest file 'suii_navigation.egg-info/SOURCES.txt'
+reading manifest file 'suii_navigation.egg-info/SOURCES.txt'
+writing manifest file 'suii_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages/site.py
+Creating /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/lib/python3.8/site-packages/suii-navigation.egg-link (link to .)
+
+Installed /home/suii/colcon_ws/suii/ros2_ws/build/suii_navigation
+running install_data
+creating /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/ament_index
+creating /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/ament_index/resource_index
+creating /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/ament_index/resource_index/packages
+copying resource/suii_navigation -> /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/suii/colcon_ws/suii/ros2_ws/install/suii_navigation/share/suii_navigation
