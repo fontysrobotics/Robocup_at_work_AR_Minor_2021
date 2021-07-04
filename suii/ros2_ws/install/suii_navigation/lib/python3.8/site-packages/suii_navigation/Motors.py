@@ -166,14 +166,14 @@ class Motors(Node):
         # Execute bootup function
         # Set self.ready variable HIGH
 
-        self.odrv0 = serial.Serial("/dev/ttyACM0", 115200) #ACM0 was eerst ODRV_F
-        self.odrv1 = serial.Serial("/dev/ttyACM1", 115200) #ACM1 was eerst ODRV_B
+        self.odrv0 = serial.Serial("/dev/ttyACM1", 115200) #ACM0 was eerst ODRV_F
+        self.odrv1 = serial.Serial("/dev/ttyACM0", 115200) #ACM1 was eerst ODRV_B
         time.sleep(2)
         self.odrv0.write("sb\n".encode())
         self.odrv1.write("sb\n".encode())
         time.sleep(5)
-        self.odrv0 = serial.Serial("/dev/ttyACM0", 115200)
-        self.odrv1 = serial.Serial("/dev/ttyACM1", 115200)
+        self.odrv0 = serial.Serial("/dev/ttyACM1", 115200)
+        self.odrv1 = serial.Serial("/dev/ttyACM0", 115200)
         time.sleep(2)
         self.bootup()
         self.ready = True
@@ -196,8 +196,8 @@ class Motors(Node):
             self.odrv0 = None
             self.odrv1 = None
             time.sleep(10)
-            self.odrv0 = serial.Serial("/dev/ttyACM0",115200)
-            self.odrv1 = serial.Serial("/dev/ttyACM1",115200)
+            self.odrv0 = serial.Serial("/dev/ttyACM1",115200)
+            self.odrv1 = serial.Serial("/dev/ttyACM0",115200)
             self.bootup()
             self.ready = True
 
@@ -233,7 +233,7 @@ class Motors(Node):
     def runVel(self, dat):
 
         #
-
+    
         if(self.ready):
             pulse_count = 70000
             vec = [dat.linear.x/1.5, -dat.angular.z/4.5, dat.linear.y/1.5]
@@ -241,13 +241,13 @@ class Motors(Node):
             time.sleep(0.01)
 
             try:
-                dataToWrite = f"v 0 {int(qua[0]*pulse_count)} \n"
+                dataToWrite = f"v 0 {int(qua[0]*pulse_count*-1)} \n"
                 self.odrv0.write(dataToWrite.encode()) # Right Front
                 time.sleep(0.001)
                 dataToWrite = f"v 1 {int(qua[1]*pulse_count)} \n"
                 self.odrv0.write(dataToWrite.encode()) #left front
                 time.sleep(0.001)
-                dataToWrite = f"v 1 {int(qua[2]*pulse_count)} \n"
+                dataToWrite = f"v 1 {int(qua[2]*pulse_count*-1)} \n"
                 self.odrv1.write(dataToWrite.encode()) #right back
                 time.sleep(0.001)
                 dataToWrite = f"v 0 {int(qua[3]*pulse_count)} \n"

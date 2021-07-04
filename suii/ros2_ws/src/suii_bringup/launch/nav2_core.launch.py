@@ -20,8 +20,20 @@ def generate_launch_description():
     suii_config_dir = os.path.join(get_package_share_directory('suii_bringup'), 'config')
     nav2_bt_trees = os.path.join(get_package_share_directory("nav2_bt_navigator"), "behavior_trees")
 
+    #The below 7 lines were moved here for good practices of starting the packages.
+    package_directory = get_package_share_directory('suii_bringup')
+    description_file = "suii_description.urdf.xacro"
+
+    pkg_share = FindPackageShare(package='suii_description').find('suii_description')
+    rviz_config_path = os.path.join(pkg_share, 'rviz/display.rviz')
+        # Be aware!, you must create your own urg_config files and they must be inside your own config folder, so they get included with the same path used in line 20
+    lidar_package = get_package_share_directory('urg_node')
+    lidar_front_config = os.path.join(lidar_package, "launch",'urg_node_ethernet.yaml')
+    lidar_back_config = os.path.join(lidar_package, "launch",'urg_node_ethernet_back.yaml')
+
+
     # Create pointer to the configuration file
-    params_file_root = os.path.join(suii_config_dir)
+    params_file_root = os.path.join(suii_config_dir)  #This is redundant, so it is no needed.
     # Specify which nodes are managed
     lifecycle_managed_nods = ['map_server', 'amcl', 'controller_server','planner_server','recoveries_server', 'bt_navigator','waypoint_follower']
 
@@ -30,19 +42,9 @@ def generate_launch_description():
     map_yaml_file_arg = DeclareLaunchArgument('map', description='Absolute path to the map yaml file.')
     # Declare we use simulation time, true for rosbag and gazebo
     use_sim_time = LaunchConfiguration('use_sim_time')
-    use_sim_time_arg = DeclareLaunchArgument('use_sim_time', default_value='True', description="Use Simulation clock?")    
+    use_sim_time_arg = DeclareLaunchArgument('use_sim_time', default_value='False', description="Use Simulation clock?")    #this should be False for real implementation
 
-    package_directory = get_package_share_directory('suii_bringup')
-    description_file = "suii_description.urdf.xacro"
-
-    pkg_share = FindPackageShare(package='suii_description').find('suii_description')
-    rviz_config_path = os.path.join(pkg_share, 'rviz/display.rviz')
-
-    lidar_package = get_package_share_directory('urg_node')
-    lidar_front_config = os.path.join(lidar_package, "launch",'urg_node_ethernet.yaml')
-    lidar_back_config = os.path.join(lidar_package, "launch",'urg_node_ethernet_back.yaml')
-
-    
+        
 
     robot_description_content = Command(
       [
@@ -52,28 +54,44 @@ def generate_launch_description():
       ]
     )
     robot_description = {"robot_description": robot_description_content}
-
-    robot_state_publisher_node = launch_ros.actions.Node(
+    # You already imported Node, so, use it straight (no need for the launch_ros.actions.)
+    robot_state_publisher_node = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
         parameters=[robot_description]
     )
 
-    lidar_front_node = launch_ros.actions.Node(
-        package='urg_node',
-        executable='urg_node_driver',
-        name='lidar_front_node',
-        parameters=[lidar_front_config],
-        remappings=[("/scan", "/scan_front")]
-    )
+    lidar_group = GroupAction([
+        Node(
+            package='urg_node',
+            executable='urg_node_driver',
+            name='lidar_front_node',
+            parameters=[lidar_front_config],
+            remappings=[("/scan", "/scan_front")]
+        ),
+        Node(
+            package='urg_node',
+            executable='urg_node_driver',
+            name='lidar_back_node',
+            parameters=[lidar_back_config],
+            remappings=[("/scan", "/scan_back")]
+        )
+    ])
+    # lidar_front_node = Node(
+    #     package='urg_node',
+    #     executable='urg_node_driver',
+    #     name='lidar_front_node',
+    #     parameters=[lidar_front_config],
+    #     remappings=[("/scan", "/scan_front")]
+    # )
 
-    lidar_back_node = launch_ros.actions.Node(
-        package='urg_node',
-        executable='urg_node_driver',
-        name='lidar_back_node',
-        parameters=[lidar_back_config],
-        remappings=[("/scan", "/scan_back")]
-    )
+    # lidar_back_node = Node(
+    #     package='urg_node',
+    #     executable='urg_node_driver',
+    #     name='lidar_back_node',
+    #     parameters=[lidar_back_config],
+    #     remappings=[("/scan", "/scan_back")]
+    # )
 
     #Create group for navigation nodes:
     nav_group = GroupAction([
@@ -156,7 +174,7 @@ def generate_launch_description():
             {'autostart': True},
             {'node_names': lifecycle_managed_nods}])
     
-    rviz_node = launch_ros.actions.Node(
+    rviz_node = Node(
         package='rviz2',
         executable='rviz2',
         name='rviz2',
@@ -171,7 +189,8 @@ def generate_launch_description():
     ld.add_action(lifecycle_manager)
     ld.add_action(rviz_node)
     ld.add_action(robot_state_publisher_node)
-    ld.add_action(lidar_front_node)
-    ld.add_action(lidar_back_node)
+    ld.add_action(lidar_group)
+    # ld.add_action(lidar_front_node)
+    # ld.add_action(lidar_back_node)
     
     return ld

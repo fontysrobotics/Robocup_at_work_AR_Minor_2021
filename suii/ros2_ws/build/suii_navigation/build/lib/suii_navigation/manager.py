@@ -30,7 +30,7 @@ class NavigationManager(Node):
         self.client = ActionClient(self, NavigateToPose, 'NavigateToPose')      #Makes an action client that is able to send the navigation goals to the navigation stack
         self.client.wait_for_server()
         time.sleep(10)
-
+        print('lol')
         self.goal = NavigateToPose.Goal()                                           #Changes the format of self.goal to the match that of the NavigateToPose
         
         

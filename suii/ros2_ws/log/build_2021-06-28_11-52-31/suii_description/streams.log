@@ -1,0 +1,33 @@
+[0.029s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[0.269s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': /usr/bin/cmake --build /home/suii/colcon_ws/suii/ros2_ws/build/suii_description -- -j8 -l8
+[0.303s] Invoking command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description': /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description
+[0.314s] -- Install configuration: ""
+[0.314s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/base_link.STL
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_left_back.STL
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/lidar_back.STL
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_left_front.STL
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_right_back.STL
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/wheel_right_front.STL
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//meshes/lidar_front.STL
+[0.315s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//rviz
+[0.316s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//rviz/display.rviz
+[0.316s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//urdf
+[0.316s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//urdf/suii_description.urdf.xacro
+[0.316s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description//urdf/suii_base.urdf.xacro
+[0.316s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/package_run_dependencies/suii_description
+[0.316s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/parent_prefix_path/suii_description
+[0.316s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/ament_prefix_path.sh
+[0.317s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/ament_prefix_path.dsv
+[0.318s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/path.sh
+[0.318s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/environment/path.dsv
+[0.319s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.bash
+[0.321s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.sh
+[0.321s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.zsh
+[0.321s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/local_setup.dsv
+[0.322s] -- Installing: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.dsv
+[0.322s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/ament_index/resource_index/packages/suii_description
+[0.322s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/cmake/suii_descriptionConfig.cmake
+[0.322s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/cmake/suii_descriptionConfig-version.cmake
+[0.322s] -- Up-to-date: /home/suii/colcon_ws/suii/ros2_ws/install/suii_description/share/suii_description/package.xml
+[0.331s] Invoked command in '/home/suii/colcon_ws/suii/ros2_ws/build/suii_description' returned '0': /usr/bin/cmake --install /home/suii/colcon_ws/suii/ros2_ws/build/suii_description

@@ -1,3 +1,4 @@
+/home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup//launch/Oldnav2_core.launch.py
 /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup//launch/suii_bringup_launch.py
 /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup//launch/slam_launch.launch.py
 /home/suii/colcon_ws/suii/ros2_ws/install/suii_bringup/share/suii_bringup//launch/nav2_core.launch.py
