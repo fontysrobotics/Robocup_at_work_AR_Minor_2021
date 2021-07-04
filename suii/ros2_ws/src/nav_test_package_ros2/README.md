@@ -1,0 +1,1 @@
+This package includes the code that receives the desired workstation from ros1 via the rosbridge. Then it reads a file to get the corresponding coordinates. It then sends those coordinates via a service to the navigation manager. 
