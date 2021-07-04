@@ -1,4 +1,6 @@
-## README.md for the urg_node package
+## README.md for the urg_node package and Ros1_bridge
+
+## Package: urg_node
 
 The urg_node package is used for reading out the lidar sensors. The data is available in RVIZ and can be used for object detection. 
 
@@ -29,3 +31,6 @@ To start reading the lidar:
 ```
 ros2 run urg_node urg_node_driver --ros-args --params-file </full/path/to>/urg_node_ethernet.yaml
 ```
+
+## Package: ros1_bridge
+
