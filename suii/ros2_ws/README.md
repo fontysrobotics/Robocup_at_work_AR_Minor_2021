@@ -1,4 +1,47 @@
-## README.md for the urg_node package and Ros1_bridge
+## A readme for the general guide, urg_node package and ros1_bridge package
+
+## For starting the complete system:
+
+This is the workspace for our ros2 environment, this is the code that is supposed to make suii work. The code is translated from ros to ros2. A general guide to this repository is given in this readme. For further information check the individual folders.
+Full launch instructions.
+To remotely launch all the ros2 components follow the coming instructions:
+Open 4 terminals.
+In the first terminal:
+
+```
+ssh suii@192.168.2.113
+source /opt/ros/noetic/setup.bash
+source/opt/ros/foxy/setup.bash
+.  </full/path/to/ros2workspace>/install/setup.bash
+ros2 run ros1_bridge dynamic_bridge
+```
+
+In the second terminal:
+```
+ssh suii@192.168.2.113
+Source /opt/ros/foxy/setup.bash
+. /home/suii/colcon_ws/ros2_ws/install/setup.bash
+ros2 launch suii_bringup nav2_core.launch.py map:=’</enter/full/path/to /map.yaml>’
+```
+Where text is in <> place your own commands and remove <>.
+
+In the third terminal:
+```
+ssh suii@192.168.2.113
+Source /opt/ros/foxy/setup.bash
+Python3 </full/path/to/Motors.py>
+```
+
+In the fourth terminal:
+```
+ssh suii@192.168.2.113
+Source /opt/ros/foxy/setup.bash
+. </full/path/to/workspace>/install/setup.bash
+Python3 </full/path/to/manager.py>
+```
+
+
+
 
 ## Package: urg_node
 
