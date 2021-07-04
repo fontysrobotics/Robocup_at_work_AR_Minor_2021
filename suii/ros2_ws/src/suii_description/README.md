@@ -1,0 +1,1 @@
+The suii_description package contains the files for displaying a robot model. Because of this, all parts of suii are also available in, for example, RVIZ and it is therefore possible to make the robot model visible so that you can also see the robot driving around in the simulation. 

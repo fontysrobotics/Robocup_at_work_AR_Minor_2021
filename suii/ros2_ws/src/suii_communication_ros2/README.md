@@ -1,0 +1,1 @@
+De package suii_communication_ros2 bevat dezelfde service als de package suii_communication_ros1. Echter staat in deze package een yaml file waarin staat in welke package van ros1 en ros2 de bridge moet zoeken voor het vinden van de service/topics die de rosbridge wil gaan “bridgen”
