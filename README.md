@@ -1,6 +1,6 @@
 ## Suii startup
 
-For starting the complete code for suii you first have to start the atwork-commander and atwork_commander_client. Herefore see the README in the ros1_ws directory. *Note that the test_robot has to be getting replaced by the atwork_commander_client.*
+For starting the complete code for suii you first have to start the atwork-commander and atwork_commander_client. Herefore see the README in the ros1_ws directory. *Note that the example_robot has to get replaced by the atwork_commander_client.*
 
 
 
