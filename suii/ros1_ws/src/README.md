@@ -1,13 +1,15 @@
-README.md for the packages: atwork_commander_client, atwork-commander and suii_communication_ros1
+### README.md for the packages: atwork_commander_client, atwork-commander and suii_communication_ros1
 
-Package: atwork-commander
+### Package: atwork-commander
 
 The atwork commander is a new implementation of the refbox. This refbox is used to generate different tasks that the robot should perform in the competition. https://github.com/robocup-at-work/atwork-commander for more information about the new refbox.
 
-Important to know:
+## Important to know:
 
 The refbox is created in ros1, so make sure that ros1 is sourced properly. Furthermore, it is important to use multiple terminals, these also need to be sourced.
-Usage
+
+## Usage
+
 For sourcing of the ros1 environment:
 ``` 
 source /opt/ros/noetic/setup.bash
@@ -48,21 +50,21 @@ For stopping the launch file:
 roslaunch atwork_commander stop.launch
 ```
 
-Package: atwork_commander_client
+### Package: atwork_commander_client
 
 The atwork_commander_client is a package that replaces the example robot from the refbox. This program receives all the tasks sent out by the refbox and sends them out one by one to the manager by making use out of a simple statemachine. The manager would make sure that these tasks will be executed.
 
-Important to know
+## Important to know:
 
 The refbox is created in ros1, so make sure that ros1 is sourced properly. 
 
-Usage
+## Usage:
 
 For starting the suii atwork_commander_client:
 ```
 roslaunch atwork_commander_client suii_robot.launch multimaster:=false
 ```
 
-Package: suii_communication_ros1
+### Package: suii_communication_ros1
 
 The package suii_communication_ros1 contains only one service, the TableGoal service. For this year it was only important to forward the workstations to which the robot had to navigate to suii.
