@@ -1,0 +1,4 @@
+## Suii startup
+
+For starting the complete code for suii you first have to start the atwork-commander and atwork_commander_client. Herefore see the README in the ros1_ws directory.
+After starting the atwork-commander and atwork_commander_client you have to follow
