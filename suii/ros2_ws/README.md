@@ -1,3 +1,5 @@
+README.md for the urg_node package
+
 The urg_node package is used for reading out the lidar sensors. The data is available in RVIZ and can be used for object detection. 
 Important to know
 To use the urg-node package it is important that you are on the same subnet as the laser. You can check this by running the following command in the terminal:
