@@ -1,6 +1,6 @@
 ## A readme for the general guide, urg_node package and ros1_bridge package
 
-## For starting the complete system:
+## General guide:
 
 This is the workspace for our ros2 environment, this is the code that is supposed to make suii work. The code is translated from ros to ros2. A general guide to this repository is given in this readme. For further information check the individual folders.
 Full launch instructions.
